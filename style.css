@@ -22,6 +22,7 @@ h1{
 
 #imgParc{
     background-image: url("img/parc.png");
+    background-repeat: no-repeat;
     height: 600px;
 }
 
@@ -35,26 +36,24 @@ h1{
 
 #imgCitadelle{
     background-image: url("img/citadelle.png");
+    background-repeat: no-repeat;
     height: 600px;
+    width: 1271px;
+    display: inline-block;
+    margin-left: 10%;
 }
 
 #imgCathedral{
     background-image: url("img/cathedral.png");
+    background-repeat: no-repeat;
     height: 600px;
-}
+    width: 1422px;
+    display: inline-block;
+    margin-left: 3%;
 
-.rond{
-    border: 1px solid #0f6b00;
-    border-radius: 5rem;
 }
 
 #verdun{
     display: inline-block;
     width: 50%;
-}
-
-#imgVerdun{
-    background-image: url("img/verdun.PNG");
-    width: 1209px;
-    display: inline-block;
 }
