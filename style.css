@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    font-size: 2rem;
+    background-color: #52b85c;
+}
+
+h1{
+    text-align: center;
+    text-decoration-line: underline;
+    line-height: 9rem;
+}
+
+#imgParc{
+    background-image: url("img/parc.png");
+    height: 600px;
+}
+
+#explainParc, #explainCitadelle, #explainCathedral{
+    display: inline-block;
+    width: 50%;
+    height: 300px;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+#imgCitadelle{
+    background-image: url("img/citadelle.png");
+    height: 600px;
+}
+
+#imgCathedral{
+    background-image: url("img/cathedral.png");
+    height: 600px;
+}
+
+.rond{
+    border: 1px solid #0f6b00;
+    border-radius: 5rem;
+}
+
+#verdun{
+    display: inline-block;
+    width: 50%;
+}
+
+#imgVerdun{
+    background-image: url("img/verdun.PNG");
+    width: 1209px;
+    display: inline-block;
+}
